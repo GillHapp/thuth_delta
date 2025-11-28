@@ -1,0 +1,6 @@
+# Ignore TruthDelta generated JSON-LD reports
+truthdelta_*.jsonld
+*.jsonld
+
+.env
+*.env
