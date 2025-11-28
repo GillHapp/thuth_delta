@@ -40,9 +40,9 @@ except Exception:
 load_dotenv()
 
 # --------------- Config / Env ---------------
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
-OPENAI_BASE_URL = os.getenv("OPENAI_BASE_URL", "").strip()  # e.g., https://api.groq.com/openai/v1
-DKG_EDGE_NODE_URL = os.getenv("DKG_EDGE_NODE_URL", "").strip()
+OPENAI_API_KEY = "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"
+OPENAI_BASE_URL = "https://api.groq.com/openai/v1"  # e.g., https://api.groq.com/openai/v1
+DKG_EDGE_NODE_URL = "https://testnet.origintrail.io/api/publish"
 DKG_API_KEY = os.getenv("DKG_API_KEY", "").strip()
 
 # Default model choices (flexible)
